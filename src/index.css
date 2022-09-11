@@ -1,13 +1,57 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+@font-face {
+  font-family: "Shrimp";
+  src: local("Shrimp"), url("./fonts/SHRIMP.ttf") format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Margaret";
+  src: local("Margaret"), url("./fonts/Margaret-Bold.otf") format("opentype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Nagoda";
+  src: local("Nagoda"), url("./fonts/Nagoda.otf") format("opentype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Recia";
+  src: local("Recia"),
+    url("./fonts/ReciaSerifDisplay-Bold.ttf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "NT Wagner";
+  src: local("NT Wagner"), url("./fonts/NT\ Wagner.otf") format("opentype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Neutral Face";
+  src: local("Neutral Face"), url("./fonts/NeutralFace.otf") format("opentype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Neutral Face Bold";
+  src: local("Neutral Face"),
+    url("./fonts/NeutralFace-Bold.otf") format("opentype");
+  font-weight: bold;
 }
